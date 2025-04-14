@@ -1,0 +1,8 @@
+services:
+  my-container:
+    image: iss.py
+    container_name: testing
+    volumes: 
+        - type: bind
+          source: /workspaces/dockerpractice/data
+         target: /data
